@@ -1,0 +1,18 @@
+.inputs{
+    display: flex;
+    gap:30px;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke
+}
+
+.container111{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width:40%
+}

@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Image Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <span>Filter ui cards via their profession</span>
+    <br>
+    <br>
+
+    <select>
+      <option value = ""> Profession</option>
+      <option value = "developer"> developer</option>
+      <option value = "admin"> admin</option>
+    </select>
+    <br>
+    <br>
+    <div class="details">
+      
+    </div>
+    <br>
+    <br>
+    <button onclick="filteredUser()">filter</button>
+    <br>
+    <br>
+    <span>Add a new User</span>
+      <br>
+      <br>  
+    <div class="inputs">
+      <div class="inner">
+        <label for = "name">Enter name</label>
+        <br>
+        <input type="text" id = "name" class="text">
+      </div>
+
+      <div class="inner">
+        <label for = "profession">Enter profession</label>
+        <br>
+        <input type="text" id = "profession" class="text">
+      </div>
+
+      <div class="inner">
+        <label for = "age">Enter age</label>
+        <br>
+        <input type="text" id = "age" class="text">   
+      </div>
+    </div>
+    <br>
+    <br>
+    <button onclick="addUser()" id = "btn">Add user</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
